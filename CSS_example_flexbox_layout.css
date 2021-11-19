@@ -1,0 +1,10 @@
+#flex {
+  display: flex;
+  flex-flow: row wrap;
+  width: 300px;
+  color: blue;
+}
+.item {
+  width: 80px;
+  border-style: dotted;
+}
