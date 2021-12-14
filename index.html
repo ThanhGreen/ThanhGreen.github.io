@@ -1,45 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<style>
-.item1 { grid-area: header; }
-.item2 { grid-area: menu; }
-.item3 { grid-area: main; }
-.item4 { grid-area: right; }
-.item5 { grid-area: footer; }
-
-.grid-container {
-  display: grid;
-  grid-template-areas:
-    'header header header header header header'
-    'menu main main main right right'
-    'menu footer footer footer footer footer';
-  grid-gap: 10px;
-  background-color: #2196F3;
-  padding: 10px;
-}
-
-.grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X-mas Trip</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400&display=swap" rel="stylesheet">
 </head>
+
 <body>
+    <section class = "header">
+        <nav>
+            <a href="index.html"><img src="Images/img8.gif" alt="color presents"></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">PARIS</a></li>
+                    <li><a href="">STRASBOURG</a></li>
+                    <li><a href="">COLMAR</a></li>
+                </ul>
+            </div>
+        </nav>
 
-<h1>Grid Layout</h1>
-
-<p>This grid layout contains six columns and three rows:</p>
-
-<div class="grid-container">
-  <div class="item1">Header</div>
-  <div class="item2">Menu</div>
-  <div class="item3">Main</div>  
-  <div class="item4">Right</div>
-  <div class="item5">Footer</div>
+<div class="text-box">
+    <h1>MY HOLIDAY GREETINGS TO YOU</h1>
+    <p>Wishing you and your family a Christmas that's merry and bright!<br>
+        Happy Holidays!</p>
+    <a href="" class="hero-btn">Visiting this website for more amazing holiday greetings</a>
 </div>
+    </section>
+
+
+
+<!-----validation------>
+<section class ="validation">  
+    <nav> 
+    <a href="index.html"><img src="Images/html_validator.png" alt="Valid HTML"></a>
+    <a href="index.html"><img src="Images/W3C_CSS_Certified.png" alt="Valid CSS"></a>    
+    </nav> 
+</section>
 
 </body>
-</html>
+
+
