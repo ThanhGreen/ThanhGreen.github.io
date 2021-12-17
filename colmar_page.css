@@ -139,6 +139,28 @@ img {
     box-shadow: var(--shadow);
 }
 
+/* Validation */
+
+.abc{
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.box1{
+    background: var(--primary);
+    text-align: center;
+    padding: 15rem 15rem;
+    box-shadow: var(--shadow);
+}
+
+.box2{
+    background: var(--primary);
+    text-align: center;
+    padding: 15rem 15rem;
+    box-shadow: var(--shadow);
+}
+
 /* Info */
 .info {
     background: var(--primary);
